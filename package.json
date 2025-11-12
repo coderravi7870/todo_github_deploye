@@ -2,13 +2,11 @@
   "name": "git-hub-deployement",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://coderavi7870.github.io/todo_github_deploye",
+   "homepage": "https://coderavi7870.github.io/todo_github_deploye",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "npm start",
-  
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
