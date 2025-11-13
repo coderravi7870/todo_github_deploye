@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Trash2, Edit2, Check, X, Plus } from 'lucide-react';
+import Navbar from './pages/Navbar';
 
 export default function TodoApp() {
   const [todos, setTodos] = useState([]);
@@ -73,6 +74,7 @@ export default function TodoApp() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-100 to-blue-100 py-8 px-4">
+      <Navbar/>
       <div className="max-w-2xl mx-auto">
         <div className="bg-white rounded-2xl shadow-2xl overflow-hidden">
           {/* Header */}
